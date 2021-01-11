@@ -32,6 +32,10 @@ The AIF360 Python package contains nine different algorithms, developed by the b
 
 * [IBM AI Fairness 360 toolkit](https://www.ibm.com/blogs/research/2018/09/ai-fairness-360/): AI Fairness 360 (AIF360), a comprehensive open-source toolkit of metrics to check for unwanted bias in datasets and machine learning models, and state-of-the-art algorithms to mitigate such bias. 
 
+* [IBM AI Explainability 360 ](https://www.ibm.com/blogs/research/2019/08/ai-explainability-360/): The AI Explainability 360 toolkit is an open-source library that supports interpretability and explainability of datasets and machine learning models. The AI Explainability 360 Python package includes a comprehensive set of algorithms that cover different dimensions of explanations along with proxy explainability metrics.
+
+* [IBM Adverserial Robustness ](https://github.com/Trusted-AI/adversarial-robustness-toolbox): Adversarial Robustness Toolbox (ART) is a Python library for Machine Learning Security. ART provides tools that enable developers and researchers to defend and evaluate Machine Learning models and applications against the adversarial threats of Evasion, Poisoning, Extraction, and Inference.
+
 * [IBM Cloud Object Storage](https://console.bluemix.net/catalog/services/cloud-object-storage): An IBM Cloud service that provides an unstructured cloud data store to build and deliver cost effective apps and services with high reliability and fast speed to market. This code pattern uses Cloud Object Storage.
 
 
