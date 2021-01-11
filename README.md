@@ -52,11 +52,11 @@ Sign up for IBM's [Watson Studio](http://dataplatform.cloud.ibm.com/).
 
 Click on New Project and select per below.
 
-![](https://github.com/IBM/bias-mitigation-of-machine-learning-models-using-aif360/blob/main/images/create_prj.png)
+![](https://github.com/IBM/predict-an-event-with-fairness-explainability-robustness-using-ai-360-toolkit/tree/main/doc/source/images/create_prj.png)
 
 Define the project by giving a Name and hit 'Create'.
 
-![](https://github.com/IBM/bias-mitigation-of-machine-learning-models-using-aif360/blob/main/images/def-prj.png)
+![](https://github.com/IBM/predict-an-event-with-fairness-explainability-robustness-using-ai-360-toolkit/tree/main/doc/source/images/def-prj.png)
 
 ## 3. Add Data
 
@@ -65,7 +65,7 @@ Navigate to [data/assets](https://github.com/IBM/bias-mitigation-of-machine-lear
 
 Click on Assets and select Browse and add the csv file from your file system. Repeat the step and add the zip file as an asset. 
 
-![](https://github.com/IBM/bias-mitigation-of-machine-learning-models-using-aif360/blob/main/images/add_asset.png)
+![](https://github.com/IBM/predict-an-event-with-fairness-explainability-robustness-using-ai-360-toolkit/tree/main/doc/source/images/add_asset.png)
 
 ## 4. Create the notebook
 
