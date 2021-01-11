@@ -1,6 +1,6 @@
 # Predict an event with fairness, explainability & robustness using AI fairness 360 toolkit
 
-**What is Fairness?
+## What is Fairness?
 
 Fairness is the process of understanding bias introduced by your data, and ensuring your model provides equitable predictions across all demographic groups. Rather than thinking of fairness as a separate initiative, it’s important to apply fairness analysis throughout your entire ML process, making sure to continuously reevaluate your models from the perspective of fairness and inclusion. This is especially important when AI is deployed in critical business processes, like credit application reviews and fraud detection, that affect a wide range of end users. 
 
