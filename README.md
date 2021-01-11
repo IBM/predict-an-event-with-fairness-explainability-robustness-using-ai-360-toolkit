@@ -10,6 +10,8 @@ The bias mitigation algorithm can be applied in three different stages of model 
 
 ![](https://github.com/IBM/predict-an-event-with-fairness-explainability-robustness-using-ai-360-toolkit/blob/main/doc/source/images/aif-360-flow.png)
 
+The AIF360 Python package contains nine different algorithms, developed by the broader algorithmic fairness research community, to mitigate that unwanted bias. They can all be called in a standard way, very similar to scikit-learn’s fit/predict paradigm. 
+
 ## Architecture diagram
 
 ![](https://github.com/IBM/predict-an-event-with-fairness-explainability-robustness-using-ai-360-toolkit/blob/main/doc/source/images/architecture.png)
