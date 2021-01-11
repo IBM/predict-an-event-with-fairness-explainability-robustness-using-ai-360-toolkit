@@ -84,9 +84,8 @@ Click on Assets and select Browse and add the csv file from your file system. Re
 * Select the `From URL` tab.
 * Enter a name for the notebook.
 * Optionally, enter a description for the notebook.
-* Enter this Notebook URL for Pre-processing  : https://github.com/IBM/bias-mitigation-of-machine-learning-models-using-aif360/blob/main/notebooks/Pre-processing.ipynb
-* Enter this Notebook URL for In-processing   : https://github.com/IBM/bias-mitigation-of-machine-learning-models-using-aif360/blob/main/notebooks/In-processing.ipynb
-* Enter this Notebook URL for Post-processing : https://github.com/IBM/bias-mitigation-of-machine-learning-models-using-aif360/blob/main/notebooks/Post-processing.ipynb
+* Enter this Notebook URL for Fairness : https://github.com/IBM/predict-an-event-with-fairness-explainability-robustness-using-ai-360-toolkit/blob/main/notebooks/Fairness.ipynb
+* Enter this Notebook URL for Explainability & Robustness : https://github.com/IBM/predict-an-event-with-fairness-explainability-robustness-using-ai-360-toolkit/blob/main/notebooks/Explainability.ipynb
 * Select the runtime (2 vCPU and 8 GB RAM.)
 * Click the `Create` button.
 
