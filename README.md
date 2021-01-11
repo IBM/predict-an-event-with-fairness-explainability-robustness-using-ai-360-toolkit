@@ -4,6 +4,8 @@
 
 Fairness is the process of understanding bias introduced by your data, and ensuring your model provides equitable predictions across all demographic groups. Rather than thinking of fairness as a separate initiative, it’s important to apply fairness analysis throughout your entire ML process, making sure to continuously reevaluate your models from the perspective of fairness and inclusion. This is especially important when AI is deployed in critical business processes, like credit application reviews and fraud detection, that affect a wide range of end users. 
 
+`In this code pattern, we will use diabetes data to predict whether a person is prone to have diabetes or not. We will explore Fairness, explainability & robustness of the predictive models and enhance the effectiveness of the AI predictive system.`
+
 ## How does the fairness algorithm work?
 
 The bias mitigation algorithm can be applied in three different stages of model building. These stages are `pre-processing, in-processing & post-processing.` The below diagram demonstrates how it works. 
