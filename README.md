@@ -1,2 +1,124 @@
-# predict-an-event-with-fairness-explainability-robustness-using-ai-360-toolkit
-"' '"
+# Predict an event with fairness, explainability & robustness using AI fairness 360 toolkit
+
+
+
+
+## Architecture diagram
+
+![](https://github.com/IBM/predict-an-event-with-fairness-explainability-robustness-using-ai-360-toolkit/blob/main/doc/source/images/architecture.png)
+
+### Flow
+
+1. Log in to Watson Studio powered by spark, initiate Cloud Object Storage, and  create a project.
+2. Upload the .csv data file to Object Storage.
+3. Load the Data File in Watson Studio Notebook.
+4. Install `aif 360` Toolkit in the Watson Studio Notebook.
+5. Analyze the results after applying the bias mitigation algorithm during pre-processing, in-processing & post-processing stages.
+
+## Included components
+
+* [IBM Watson Studio](https://www.ibm.com/cloud/watson-studio): Analyze data using RStudio, Jupyter, and Python in a configured, collaborative environment that includes IBM value-adds, such as managed Spark.
+
+* [IBM AI Fairness 360 toolkit](https://www.ibm.com/blogs/research/2018/09/ai-fairness-360/): AI Fairness 360 (AIF360), a comprehensive open-source toolkit of metrics to check for unwanted bias in datasets and machine learning models, and state-of-the-art algorithms to mitigate such bias. 
+
+* [IBM Cloud Object Storage](https://console.bluemix.net/catalog/services/cloud-object-storage): An IBM Cloud service that provides an unstructured cloud data store to build and deliver cost effective apps and services with high reliability and fast speed to market. This code pattern uses Cloud Object Storage.
+
+
+## Featured technologies
+
+* [Artificial Intelligence](https://developer.ibm.com/technologies/artificial-intelligence/): Any system which can mimic cognitive functions that humans associate with the human mind, such as learning and problem solving.
+* [Data Science](https://developer.ibm.com/code/technologies/data-science/): Systems and scientific methods to analyze structured and unstructured data in order to extract knowledge and insights.
+* [Analytics](https://developer.ibm.com/code/technologies/analytics/): Analytics delivers the value of data for the enterprise.
+* [Python](https://www.python.org/): Python is a programming language that lets you work more quickly and integrate your systems more effectively.
+
+## Steps using AIF 360 on Watson Studio
+
+
+1. [Create an account with IBM Cloud](#1-create-an-account-with-ibm-cloud)
+1. [Create a new Watson Studio project](#2-create-a-new-watson-studio-project)
+1. [Add Data](#3-add-data)
+1. [Create the notebook](#4-create-the-notebook)
+1. [Insert the data as dataframe](#5-insert-the-data-as-dataframe)
+1. [Run the notebook](#6-run-the-notebook)
+1. [Analyze the results](#7-analyze-the-results)
+
+## 1. Create an account with IBM Cloud
+
+Sign up for IBM [**Cloud**](https://console.bluemix.net/). By clicking on create a free account you will get 30 days trial account.
+
+## 2. Create a new Watson Studio project
+
+Sign up for IBM's [Watson Studio](http://dataplatform.ibm.com/). 
+
+Click on New Project and select per below.
+
+![](https://github.com/IBM/bias-mitigation-of-machine-learning-models-using-aif360/blob/main/images/create_prj.png)
+
+Define the project by giving a Name and hit 'Create'.
+
+![](https://github.com/IBM/bias-mitigation-of-machine-learning-models-using-aif360/blob/main/images/def-prj.png)
+
+## 3. Add Data
+
+[Clone this repo](https://github.com/IBM/bias-mitigation-of-machine-learning-models-using-aif360)
+Navigate to [data/assets](https://github.com/IBM/bias-mitigation-of-machine-learning-models-using-aif360/tree/main/data/assets) and save the file by name `fraud_data.csv` on the disk. The zip file `Pipeline_LabelEncoder-0.1.zip` also needs to be saved onto the disk. 
+
+Click on Assets and select Browse and add the csv file from your file system. Repeat the step and add the zip file as an asset. 
+
+![](https://github.com/IBM/bias-mitigation-of-machine-learning-models-using-aif360/blob/main/images/add_asset.png)
+
+## 4. Create the notebook
+
+* Open [IBM Watson Studio](https://dataplatform.ibm.com).
+* Go to the project and click on Add 
+* Click on `Create notebook` to create a notebook.
+* Select the `From URL` tab.
+* Enter a name for the notebook.
+* Optionally, enter a description for the notebook.
+* Enter this Notebook URL for Pre-processing  : https://github.com/IBM/bias-mitigation-of-machine-learning-models-using-aif360/blob/main/notebooks/Pre-processing.ipynb
+* Enter this Notebook URL for In-processing   : https://github.com/IBM/bias-mitigation-of-machine-learning-models-using-aif360/blob/main/notebooks/In-processing.ipynb
+* Enter this Notebook URL for Post-processing : https://github.com/IBM/bias-mitigation-of-machine-learning-models-using-aif360/blob/main/notebooks/Post-processing.ipynb
+* Select the runtime (2 vCPU and 8 GB RAM.)
+* Click the `Create` button.
+
+After the notebooks are imported, click on `Not Trusted` and select the option as Yes to trust the source of the notebooks.
+
+![](https://github.com/IBM/bias-mitigation-of-machine-learning-models-using-aif360/blob/main/images/not_trusted.png)
+
+`This notebook has been created to demonstrate the steps for building the model using Watson Studio platform for fraud prediction usecase. For other usecases, the notebook has to be modified to read the new dataset and the same steps can be executed.`
+
+## 5. Insert the data as dataframe
+
+Click on 0010 icon at the top right side which will bring up the data assets tab.
+
+![](https://github.com/IBM/bias-mitigation-of-machine-learning-models-using-aif360/blob/main/images/add.png)
+
+Click on Insert to code dropdown and select the option Insert Pandas Dataframe.
+
+![](https://github.com/IBM/bias-mitigation-of-machine-learning-models-using-aif360/blob/main/images/insert_dataframe.png)
+
+## 6. Run the notebook
+
+When a notebook is executed, what is actually happening is that each code cell in
+the notebook is executed, in order, from top to bottom.
+
+Each code cell is selectable and is preceded by a tag in the left margin. The tag
+format is `In [x]:`. Depending on the state of the notebook, the `x` can be:
+
+* A blank, this indicates that the cell has never been executed.
+* A number, this number represents the relative order this code step was executed.
+* A `*`, this indicates that the cell is currently executing.
+
+There are several ways to execute the code cells in your notebook:
+
+* One cell at a time.
+  * Select the cell, and then press the `Play` button in the toolbar.
+* Batch mode, in sequential order.
+  * From the `Cell` menu bar, there are several options available. For example, you
+    can `Run All` cells in your notebook, or you can `Run All Below`, that will
+    start executing from the first cell under the currently selected cell, and then
+    continue executing all cells that follow.
+
+## 7. Analyze the results
+
+After we run all cells in the notebook, the results are displayed at the end of each notebook per below.
