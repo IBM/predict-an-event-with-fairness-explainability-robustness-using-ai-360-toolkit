@@ -1,11 +1,15 @@
-# Predict an event with fairness, explainability & robustness using AI fairness 360 toolkit
-`In this code pattern, we will use diabetes data to predict whether a person is prone to have diabetes or not. We will explore Fairness, explainability & robustness of the predictive models and enhance the effectiveness of the AI predictive system.`  
+# Predict an event with fairness, explainability & robustness using AI fairness 360 toolkit.
+`In this Code Pattern, we will use diabetes data to predict whether a person is prone to have diabetes or not. We will explore Fairness, explainability & robustness of the predictive models and enhance the effectiveness of the AI predictive system.`  
+
+The Code Pattern demonstrates the end-to-end solution : 
+- Check the Fairness of the Diabetes Dataset using the Fairness Tool kit.
+- Develop the Model.
+- Explain the Model using the Explainability toolkit.
+
+The Code Pattern shares the generic code template for the entire end-to-end process of the above three steps. Therefore, it can used to plugin any Dataset that a developer wants to explore the fairness and explainability for.
 
 ## What is Fairness?
-
 Fairness is the process of understanding bias introduced by your data, and ensuring your model provides equitable predictions across all demographic groups. Rather than thinking of fairness as a separate initiative, it’s important to apply fairness analysis throughout your entire ML process, making sure to continuously reevaluate your models from the perspective of fairness and inclusion. This is especially important when AI is deployed in critical business processes, like credit application reviews and fraud detection, that affect a wide range of end users. 
-
-
 
 ## How does the fairness algorithm work?
 
@@ -14,6 +18,23 @@ The bias mitigation algorithm can be applied in three different stages of model 
 ![](https://github.com/IBM/predict-an-event-with-fairness-explainability-robustness-using-ai-360-toolkit/blob/main/doc/source/images/aif-360-flow.png)
 
 The AIF360 Python package contains nine different algorithms, developed by the broader algorithmic fairness research community, to mitigate that unwanted bias. They can all be called in a standard way, very similar to scikit-learn’s fit/predict paradigm. 
+
+For specific details refer to the Code Pattern: 
+
+## What is Explainability? 
+Explainability of a Machine Learning Model refers to unveiling of the black box model which just makes the prediction or give the recommendation to the White box which actually gives the details of the underlying mechanism and pattern identified by the model for a particular Dataset. There are multiple reasons why we need to understand the underlying mechanism of the Machine learning Models
+- Human Readability.
+- Bias Mitigation.
+- Justifiability.
+- Interpretability.
+
+![](https://github.com/IBM/unveiling-machine-fraud-prediction-decision-with-ai-explainability-360/blob/main/doc/source/images/AIX360_1.png = 500x500)
+
+## How does Explainability work? 
+[AI Explainability 360](http://aix360.mybluemix.net/), a comprehensive open source toolkit of state-of-the-art algorithms that support the interpretability and explainability of machine learning models. Currently, AI explainability 360 toolkit provides eight state-of-the-art explainability algorithms that can add transparency throughout AI systems. Depending on the requirement and subjected to the problem statement you can choose them appropriately. The algorithms are explained in detail on this [link.](https://aix360.mybluemix.net/))
+
+For specific details refer to this [Code Pattern](https://github.com/IBM/unveiling-machine-fraud-prediction-decision-with-ai-explainability-360)
+
 
 ## Architecture diagram
 
@@ -24,7 +45,13 @@ The AIF360 Python package contains nine different algorithms, developed by the b
 1. Log in to Watson Studio powered by spark, initiate Cloud Object Storage, and  create a project.
 2. Upload the .csv data file to Object Storage.
 3. Load the Data File in Watson Studio Notebook.
-4. Install `aif 360` Toolkit in the Watson Studio Notebook.
+4. Install `aif 360` and `aix 360` Toolkit in the Watson Studio Notebook. 
+run :
+```
+!pip install aix360 
+
+!pip install aif360
+```
 5. Analyze the results after applying the bias mitigation algorithm during pre-processing, in-processing & post-processing stages.
 
 ## Included components
