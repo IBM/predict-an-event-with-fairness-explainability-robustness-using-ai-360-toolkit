@@ -28,7 +28,7 @@ Explainability of a Machine Learning Model refers to unveiling of the black box 
 - Justifiability.
 - Interpretability.
 
-![](https://github.com/IBM/unveiling-machine-fraud-prediction-decision-with-ai-explainability-360/blob/main/doc/source/images/AIX360_1.png = 500x500)
+<img src="https://github.com/IBM/unveiling-machine-fraud-prediction-decision-with-ai-explainability-360/blob/main/doc/source/images/AIX360_1.png" width="500" height="500" />
 
 ## How does Explainability work? 
 [AI Explainability 360](http://aix360.mybluemix.net/), a comprehensive open source toolkit of state-of-the-art algorithms that support the interpretability and explainability of machine learning models. Currently, AI explainability 360 toolkit provides eight state-of-the-art explainability algorithms that can add transparency throughout AI systems. Depending on the requirement and subjected to the problem statement you can choose them appropriately. The algorithms are explained in detail on this [link.](https://aix360.mybluemix.net/))
