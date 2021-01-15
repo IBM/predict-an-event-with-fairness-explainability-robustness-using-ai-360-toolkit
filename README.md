@@ -133,11 +133,11 @@ After the notebooks are imported, click on `Not Trusted` and select the option a
 
 Click on 0010 icon at the top right side which will bring up the data assets tab.
 
-![](https://github.com/IBM/bias-mitigation-of-machine-learning-models-using-aif360/blob/main/images/add.png)
+![](https://github.com/IBM/predict-an-event-with-fairness-explainability-robustness-using-ai-360-toolkit/blob/main/doc/source/images/add.png)
 
 Click on Insert to code dropdown and select the option Insert Pandas Dataframe.
 
-![](https://github.com/IBM/bias-mitigation-of-machine-learning-models-using-aif360/blob/main/images/insert_dataframe.png)
+![](https://github.com/IBM/predict-an-event-with-fairness-explainability-robustness-using-ai-360-toolkit/blob/main/doc/source/images/insert_dataframe.png)
 
 ## 6. Run the notebook
 
