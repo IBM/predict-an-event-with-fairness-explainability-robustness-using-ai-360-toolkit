@@ -46,12 +46,6 @@ For specific details refer to this [Code Pattern](https://github.com/IBM/unveili
 2. Upload the .csv data file to Object Storage.
 3. Load the Data File in Watson Studio Notebook.
 4. Install `aif 360` and `aix 360` Toolkit in the Watson Studio Notebook. 
-run :
-```
-!pip install aix360 
-
-!pip install aif360
-```
 5. Analyze the results after applying the bias mitigation algorithm during pre-processing, in-processing & post-processing stages.
 
 ## Included components
