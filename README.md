@@ -19,7 +19,7 @@ The bias mitigation algorithm can be applied in three different stages of model 
 
 The AIF360 Python package contains nine different algorithms, developed by the broader algorithmic fairness research community, to mitigate that unwanted bias. They can all be called in a standard way, very similar to scikit-learn’s fit/predict paradigm. 
 
-For specific details refer to the Code Pattern: 
+For specific details refer to the [Code Pattern](https://github.com/IBM/bias-mitigation-of-machine-learning-models-using-aif360) 
 
 ## What is Explainability? 
 Explainability of a Machine Learning Model refers to unveiling of the black box model which just makes the prediction or give the recommendation to the White box which actually gives the details of the underlying mechanism and pattern identified by the model for a particular Dataset. There are multiple reasons why we need to understand the underlying mechanism of the Machine learning Models
