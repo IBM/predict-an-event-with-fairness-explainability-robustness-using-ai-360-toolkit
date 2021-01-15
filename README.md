@@ -164,3 +164,9 @@ There are several ways to execute the code cells in your notebook:
 ## 7. Analyze the results
 
 After we run all cells in the notebook, the results are displayed at the end of each notebook per below.
+
+**Fairness Results**
+
+![]()
+
+
