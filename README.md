@@ -167,6 +167,25 @@ After we run all cells in the notebook, the results are displayed at the end of 
 
 **Fairness Results**
 
+![](https://github.com/IBM/predict-an-event-with-fairness-explainability-robustness-using-ai-360-toolkit/blob/main/doc/source/images/fairness_res.png)
+
+**Explainability Results**
+
 ![]()
 
 
+## Troubleshooting
+
+[See DEBUGGING.md.](DEBUGGING.md)
+
+
+## Citation for data :
+
+`The dataset which is referenced in this code pattern is created and owned by R.K.Sharath Kumar, Data Scientist, IBM India Software Labs.`
+
+
+## License
+
+This code pattern is licensed under the Apache Software License, Version 2.  Separate third party code objects invoked within this code pattern are licensed by their respective providers pursuant to their own separate licenses. Contributions are subject to the Developer [Certificate of Origin, Version 1.1 (DCO)](https://developercertificate.org/) and the [Apache Software License, Version 2](http://www.apache.org/licenses/LICENSE-2.0.txt).
+
+Check the [ASL FAQ link](http://www.apache.org/foundation/license-faq.html#WhatDoesItMEAN) for more details
