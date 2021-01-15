@@ -165,7 +165,7 @@ After we run all cells in the notebook, the results are displayed at the end of 
 
 **Explainability Results**
 
-![]()
+![](https://github.com/IBM/predict-an-event-with-fairness-explainability-robustness-using-ai-360-toolkit/blob/main/doc/source/images/explainability_res.png)
 
 
 ## Troubleshooting
