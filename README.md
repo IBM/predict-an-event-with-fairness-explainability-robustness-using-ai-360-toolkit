@@ -98,7 +98,7 @@ Define the project by giving a Name and hit 'Create'.
 ## 3. Add Data
 
 [Clone this repo](https://github.com/IBM/predict-an-event-with-fairness-explainability-robustness-using-ai-360-toolkit)
-Navigate to [data/assets](https://github.com/IBM/bias-mitigation-of-machine-learning-models-using-aif360/tree/main/data/assets) and save the file by name `diabetes_data.csv` on the disk. The zip file `Pipeline_LabelEncoder-0.1.zip` also needs to be saved onto the disk. 
+Navigate to [data/assets](https://github.com/IBM/predict-an-event-with-fairness-explainability-robustness-using-ai-360-toolkit/tree/main/data/assets) and save the file by name `diabetes_data.csv` on the disk. The zip file `Pipeline_LabelEncoder-0.1.zip` also needs to be saved onto the disk. 
 
 Click on Assets and select Browse and add the csv file from your file system. Repeat the step and add the zip file as an asset. 
 
