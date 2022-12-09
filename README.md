@@ -1,3 +1,7 @@
+# WARNING: This repository is no longer maintained
+
+> This repository will not be updated. The repository will be kept available in read-only mode.
+
 # Predict an event with fairness, explainability & robustness using AI fairness 360 toolkit.
 `In this Code Pattern, we will use diabetes data to predict whether a person is prone to have diabetes or not. We will explore Fairness, explainability & robustness of the predictive models and enhance the effectiveness of the AI predictive system.`  
 
